@@ -1,0 +1,32 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-dev-server": "webpack serve --port 8078",
+    "dev": "webpack serve --mode=development --port 8078",
+    "prod": "webpack serve --mode=production --port 8078"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-veit/empty-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexander-veit/empty-project/issues"
+  },
+  "homepage": "https://github.com/alexander-veit/empty-project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "path": "^0.12.7",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
